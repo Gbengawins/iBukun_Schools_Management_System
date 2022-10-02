@@ -9,6 +9,9 @@ import {
   Services, ServicesOne, ServicesTwo, ServicesThree,
 } from "./components/Services";
 import { About, OurAim, OurVision } from "./components/About";
+//Authentication
+import Login from './components/auth/Login';
+import Register from './components/auth/Register';
 //Teachers
 import AddTeacher from "./pages/teachers/AddTeacher";
 import UpdateTeacher from "./pages/teachers/UpdateTeacher";
@@ -46,6 +49,10 @@ function App() {
       <Sidebar />
       {/* <div className="container"> */}
       <Routes>
+
+        <Route path="/Login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+
         <Route path="/about" element={<About />} />
         <Route path="/about/aim" exact element={<OurAim />} />
         <Route path="/about/our-vision" exact element={<OurVision />} />

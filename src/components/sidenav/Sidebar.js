@@ -10,12 +10,12 @@ import Phoenix from "../assets/Phoenix-Logo.png";
 
 
 const Nav = styled.div`
-marginTop: -50px;
   background: #15171c;
   height: 80px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  
 `;
 
 const NavIcon = styled(Link)`
@@ -26,6 +26,7 @@ const NavIcon = styled(Link)`
   justify-content: flex-start;
   align-items: center;
   overflow-y: hidden;
+  boxShadow: "3px 5px 5px rbga(0, 0, 0, 0.9)"
 `;
 
 const SidebarNav = styled.nav`
@@ -39,7 +40,7 @@ const SidebarNav = styled.nav`
   left: ${({ sidebar }) => (sidebar ? "0" : "-100%")};
   transition: 350ms;
   z-index: 10;
-
+  boxshadow: "3px 5px 15px rbga(0, 0, 0, 0.5)"
 `;
 
 const SidebarWrap = styled.div`
@@ -58,7 +59,8 @@ const Sidebar = () => {
           <NavIcon to="#">
             <FaIcons.FaBars
               onClick={showSidebar}
-              style={{ marginLeft: "0px" }}
+              style={{
+                marginLeft: "0px" }}
             />
           </NavIcon>
           <h1

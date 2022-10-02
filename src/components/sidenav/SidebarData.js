@@ -36,10 +36,11 @@ export const SidebarData = [
     ],
   },
   {
-    title: "Authentication",
-    icon: <AiIcons.AiOutlineSecurityScan />,
+    title: "SignIn",
+    icon: <ImIcons.ImKey2 />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
+
     subNav: [
       {
         title: "Login",

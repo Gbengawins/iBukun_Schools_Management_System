@@ -9,7 +9,7 @@
 .events, .support,
 .teacher, .student,
 .course, .class,
-.parents {
+.parents, .signIn { 
   display: flex;
   margin-left: 260px;
   font-size: 2rem;
