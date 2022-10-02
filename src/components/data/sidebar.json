@@ -1,0 +1,161 @@
+[
+  {
+    "title": "iBukun",
+    "icon": "bi-fingerprint"
+  },
+  {
+    "title": "Dashboard",
+    "icon": "bi bi-columns-gap",
+    "children": [
+      {
+        "title": "Home",
+        "icon": "bi-house-fill",
+        "path": "/"
+      },
+      {
+        "title": "About",
+        "icon": "bi-info-circle-fill",
+        "path": "/about"
+      }
+    ]
+  },
+  {
+    "title": "Authentication",
+    "icon": "bi-file-person",
+    "children": [
+      {
+        "title": "Login",
+        "icon": "bi-box-arrow-in-right",
+        "path": "/login"
+      },
+      {
+        "title": "Register",
+        "path": "/register"
+      },
+      {
+        "title": "Forgot Password",
+        "path": "/forgot-password"
+      },
+      {
+        "title": "Reset Password",
+        "path": "/reset-password"
+      }
+    ]
+  },
+  {
+    "title": "Teachers",
+    "icon": "bi-mortarboard",
+    "children": [
+      {
+        "title": "AddTeacher",
+        "icon": "bi-person",
+        "path": "/teachers/addteacher"
+      }
+    ]
+  },
+  {
+    "title": "Students",
+    "icon": "bi-person"
+  },
+  {
+    "title": "Courses",
+    "icon": "bi-journals"
+  },
+  {
+    "title": "Classes",
+    "icon": "bi-people"
+  },
+  {
+    "title": "Profile",
+    "icon": "fa-regular fa-circle-user",
+    "children": [
+      {
+        "title": "Profile",
+        "path": "/profile"
+      },
+      {
+        "title": "Settings",
+        "icon": "bi-gear",
+        "children": [
+          {
+            "title": "Account",
+            "path": "/settings/account"
+          },
+
+          {
+            "title": "Notifications",
+            "path": "/settings/notifications"
+          }
+        ]
+      },
+      {
+        "title": "Logout",
+        "path": "/logout"
+      }
+    ]
+  },
+
+  {
+    "title": "Advance",
+    "icon": "bi-view-list",
+    "children": [
+      {
+        "title": "Search",
+        "path": "/search"
+      },
+      {
+        "title": "History",
+        "path": "/history"
+      }
+    ]
+  },
+  {
+    "title": "Support",
+    "icon": "bi-gear",
+    "path": "/support"
+  },
+  {
+    "title": "Events",
+    "icon": "bi-calendar3",
+    "path": "/report-bug"
+  },
+  {
+    "title": "Billing",
+    "children": [
+      {
+        "title": "Payment",
+        "path": "/settings/billing/payment"
+      },
+      {
+        "title": "Subscription",
+        "path": "/settings/billing/subscription"
+      }
+    ]
+  },
+  {
+    "title": "Contact",
+    "icon": "bi-envelope-paper",
+    "children": [
+      {
+        "title": "Facebook",
+        "icon": "bi-facebook"
+      },
+      {
+        "title": "Twitter",
+        "icon": "bi-twitter"
+      },
+      {
+        "title": "Instagram",
+        "icon": "bi-instagram"
+      }
+    ]
+  },
+  {
+    "title": "FAQ",
+    "icon": "bi-question-circle-fill"
+  },
+  {
+    "title": "Logout",
+    "icon": "bi-box-arrow-left"
+  }
+]
