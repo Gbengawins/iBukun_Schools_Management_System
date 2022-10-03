@@ -10,6 +10,8 @@ import {
 } from "./components/Services";
 import { About, OurAim, OurVision } from "./components/About";
 //Authentication
+import { Dashboard, Admin, Lounge } from "./auth/Dashboard";
+
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 //Teachers

@@ -1,5 +1,5 @@
 import React from "react";
-import * as AiIcons from "react-icons/ai";
+// import * as AiIcons from "react-icons/ai";
 import * as BsIcons from "react-icons/bs";
 import * as FaIcons from "react-icons/fa";
 import * as FiIcons from "react-icons/fi";
@@ -14,6 +14,26 @@ export const SidebarData = [
   {
     title: "Dashboard",
     icon: <BsIcons.BsColumnsGap />,
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
+
+    subNav: [
+      {
+        icon: <FaIcons.FaJournalWhills />,
+        title: "Admin",
+        path: "/admin/editor",
+      },
+      {
+        title: "Lounge",
+        path: "/admin/lounge",
+        icon: <FaIcons.FaBinoculars />,
+      },
+      {
+        title: "link-page",
+        path: "/admin/link-page",
+        icon: <FaIcons.FaBinoculars />,
+      },
+    ],
   },
   {
     title: "About",

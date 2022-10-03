@@ -40,7 +40,7 @@ const SidebarNav = styled.nav`
   left: ${({ sidebar }) => (sidebar ? "0" : "-100%")};
   transition: 350ms;
   z-index: 10;
-  boxshadow: "3px 5px 15px rbga(0, 0, 0, 0.5)"
+  boxShadow: "3px 5px 15px rbga(0, 0, 0, 0.5)"
 `;
 
 const SidebarWrap = styled.div`
@@ -90,6 +90,7 @@ const Sidebar = () => {
             />
             iBukun
           </h1>
+          <div className="navbar-right"></div>
         </Nav>
         <SidebarNav sidebar={sidebar}>
           <SidebarWrap>

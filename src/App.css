@@ -9,9 +9,23 @@
 .events, .support,
 .teacher, .student,
 .course, .class,
-.parents, .signIn { 
+.parents, .signIn,
+.dashboard { 
   display: flex;
   margin-left: 260px;
   font-size: 2rem;
   overflow-y: hidden;
+}
+
+.card__container {
+  height: 700px;
+  width: 50vw;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  box-shadow: 3px 5px 15px rgba(0,0,0,0.5);
+  background: rgb(255, 255, 255);
+  border: 2px solid transparent;
+  border-radius: 15px;
+  
 }
